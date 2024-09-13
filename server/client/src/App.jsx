@@ -4,8 +4,7 @@ import "./App.css";
 
 function App() {
     const [item, setItem] = useState("");
-    const port = import.meta.env.VITE_SERVER_PORT || 5000; // Default to 5000 if not set
-    const serverUrl = `http://localhost:${port}`; // Ensure this URL matches your Express server
+    const serverUrl = "https://helllo-world-deploy-1.onrender.com/";
 
     const dataFromServer = async () => {
         try {

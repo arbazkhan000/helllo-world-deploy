@@ -11,7 +11,7 @@ app.use(express.json());
 
 // CORS options
 const corsOptions = {
-    origin: "*",
+    origin: "https://helllo-world-deploy-1.onrender.com/",
     methods: "GET, POST, PUT, DELETE",
     credentials: true,
     optionsSuccessStatus: 200,
